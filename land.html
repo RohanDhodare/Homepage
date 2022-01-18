@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electric Scooter</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- font-awesome link -->
+  <script src="https://kit.fontawesome.com/94209132ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header section starts-->
+  <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">E-Motor</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#featured">Featured</a>
+      <a href="#review">Reviews</a>
+      <a href="#footer">About Us </a>
+    </nav>
+    <!-- <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="#" class="fas fa-user"></a>
+    </div> -->
+  </header>
+
+  <!-- header section ends-->
+
+  <!-- home section start  -->
+  <section class="home" id="home">
+    <div class="slide-container active">
+      <div class="slide">
+        <div class="content">
+          <span>OLA</span>
+          <h3>OLA S1 Electric</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            maiores et eos eaque veritatis aut laboriosam earum dolorem iste
+            atque.
+          </p>
+          <a href="#" class="btn">Book Test Ride</a>
+        </div>
+        <div class="image">
+          <img src="./Images/2.jpg" class="scooter" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide">
+        <div class="content">
+          <span>ATHER</span>
+          <h3>ATHER 450X</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            maiores et eos eaque veritatis aut laboriosam earum dolorem iste
+            atque.
+          </p>
+          <a href="#" class="btn">Book Test Ride</a>
+        </div>
+        <div class="image">
+          <img src="./Images/18.webp" class="scooter" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide">
+        <div class="content">
+          <span>BAJAJ</span>
+          <h3>Bajaj Chetak</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            maiores et eos eaque veritatis aut laboriosam earum dolorem iste
+            atque.
+          </p>
+          <a href="#" class="btn">Book Test Ride</a>
+        </div>
+        <div class="image">
+          <img src="./Images/23.jpg" class="scooter" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+  </section>
+  <!-- home section ends  -->
+  <!-- service section starts  -->
+  <section class="service">
+    <div class="box-container">
+
+      <div class="box">
+        <i class="fas fa-biking"></i>
+        <h3>Immediate Test Ride</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-battery-three-quarters"></i>
+        <h3>5 years warranty on battery</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <h3>24 x 7 support</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+      </div>
+
+    </div>
+  </section>
+  <!-- service section ends -->
+
+  <!-- featured section starts -->
+  <section class="featured" id="featured">
+    <h1 class="heading"> Featured <span>Products</span>
+    </h1>
+    <div class="row">
+      <div class="image-container">
+        <div class="big-image">
+          <img src="/Images/2.jpg" class="big-image-1" alt="">
+        </div>
+      </div>
+      <div class="content">
+        <h3>OLA S1</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure
+          libero quis fuga commodi. Autem.</p>
+        <div class="price">₹1.10 Lakh</div>
+        <a href="#" class="btn">Book a Free Test Ride</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="image-container">
+        <div class="big-image">
+          <img src="/Images/18.webp" class="big-image-1" alt="">
+        </div>
+      </div>
+      <div class="content">
+        <h3>ATHER 450X</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure
+          libero quis fuga commodi. Autem.</p>
+        <div class="price">₹1.38 Lakh </div>
+        <a href="#" class="btn">Book a Free Test Ride</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="image-container">
+        <div class="big-image">
+          <img src="/Images/23.jpg" class="big-image-1" alt="">
+        </div>
+      </div>
+      <div class="content">
+        <h3>BAJAJ CHETAK</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure
+          libero quis fuga commodi. Autem.</p>
+        <div class="price">₹1.15 Lakh </div>
+        <a href="#" class="btn">Book a Free Test Ride</a>
+      </div>
+    </div>
+    <!-- featured section ends -->
+    
+    <!-- review section starts -->
+    <section class="review" id="review">
+      <h1 class="heading"> Customer <span>Reviews</span>
+      </h1>
+      <div class="box-container">
+
+        <div class="box">
+          <img src="/Images/pic1.png" alt="">
+          <h3>Lili Roberts</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis explicabo modi eius facere, enim
+            quidem accusantium esse labore exercitationem.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+          <img src="/Images/pic2.png" alt="">
+          <h3>John Williams</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis explicabo modi eius facere, enim
+            quidem accusantium esse labore exercitationem.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+          <img src="/Images/pic3.png" alt="">
+          <h3>Richard Johnson</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis explicabo modi eius facere, enim
+            quidem accusantium esse labore exercitationem.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- feedback section starts -->
+    <section class="feedback">
+
+      <div class="content">
+          <h3>Website Feedback</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil.</p>
+          <form action="">
+              <input type="text" placeholder="Enter your valuable feedback" class="box">
+              <input type="submit" value="send" class="btn">
+          </form>
+      </div>
+  
+  </section>
+
+    <!-- feedback section ends -->
+
+    <!--footer section starts -->
+    <section class="footer"  id="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>Our Stores</h3>
+          <a href="#">Delhi</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Pune</a>
+          <a href="#">Chennai</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#featured">Featured Products</a>
+          <a href="#review">Customer Reviews</a>
+          <a href="#footer">About Us</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow Us</h3>
+          <i id="fab-twit" class="fab fa-facebook"></i>
+          <i id="fab-twit"class="fab fa-twitter"></i>
+          <i id="insta"class="fab fa-instagram"></i>
+          <i id="youtube" class="fab fa-youtube"></i>
+        </div>
+
+        <div class="credit">created by <span>E-motors pvt. ltd. </span> |all rights reserved </div>
+
+      </div>
+    </section>
+
+
+    <!--footer section ends  -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
