@@ -158,19 +158,19 @@
   padding: 5rem 0;
 }
 .home .slide-container:nth-child(1) .slide{
-  background:url(./Images/25.jpg) no-repeat;
+  background:url(/Homepage/Images/25.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .home .slide-container:nth-child(2) .slide{
-  background:url(./Images/25.jpg) no-repeat;
+  background:url(/Homepage/Images/25.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .home .slide-container:nth-child(3) .slide{
-  background:url(./Images/25.jpg) no-repeat;
+  background:url(/Homepage/Images/25.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
